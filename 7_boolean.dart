@@ -15,4 +15,9 @@ void main(List<String> args) {
   print(!isTrue); // false
   print(true != false);
   print(false != false);
+
+
+  //                    dicoding.com/pijak/
+  //dicoding.com/pijak/ registration?ref=419296
+
 }
