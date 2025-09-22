@@ -31,4 +31,7 @@ void main(List<String> args) {
   print('Apakah $number adalah bilangan genap? $isEven');
   var isOdd = number % 2 != 0;
   print('Apakah $number adalah bilangan ganjil? $isOdd');
+
+  // aritmatika dan
+  // perbandingan
 }
