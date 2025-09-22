@@ -27,10 +27,10 @@ void main(List<String> args) {
   print('Keliling lingkaran dengan jari-jari $radius adalah $keliling');
   
   var number = 10;
-  var isEven = number % 2 == 0;
-  print('Apakah $number adalah bilangan genap? $isEven');
-  var isOdd = number % 2 != 0;
-  print('Apakah $number adalah bilangan ganjil? $isOdd');
+  var genap = number % 2 == 0;
+  print('Apakah $number adalah bilangan genap? $genap');
+  var ganjil = number % 2 != 0;
+  print('Apakah $number adalah bilangan ganjil? $ganjil');
 
   // aritmatika dan
   // perbandingan
