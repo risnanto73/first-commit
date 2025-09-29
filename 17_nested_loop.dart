@@ -30,8 +30,9 @@ void main(List<String> args) {
    */
 
   for (var i = 5; i >= 1; i--) {
+    // print('baris ke $i');
     var bintang = '';
-    for (var j = 1 ; j <= i; j++) {
+    for (var j = 1; j <= i; j++) {
       bintang += '*';
     }
     print(bintang);
