@@ -44,4 +44,14 @@ void main(List<String> args) {
    * *****
    * ******
    */
+
+  int i = 1;
+
+  for (i = 1; i <= 10; i++) {
+    print("*" * i);
+  }
+
+  for (i = 10; i >= 1; i--) {
+    print("*" * i);
+  }
 }
