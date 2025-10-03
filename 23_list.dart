@@ -81,4 +81,11 @@ void main() {
    * spread list digunakan untuk 
    * menggabungkan dua list menjadi di satu
    */
+
+  /** challenge
+   * 1. buatlah list yang berisi 5 nama dari A-E
+   * - dan tampilkan data nama index ke 3
+   * - tambahkan nama baru, lalu hapus nama pertama
+   * - cek apakah nama Eka ada dalam list?
+   */
 }
