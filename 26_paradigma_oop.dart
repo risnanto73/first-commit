@@ -44,6 +44,52 @@ main() {
    * method (fungsi) pola makan 
    */
 
+  /**
+   * 2. Abstraction
+   * Abstraksi juga bisa dibilang merupakan penerapan alami
+   * dari encapsulation.
+   * Abstraksi berarti sebuah objek hanya menunjukan operanya 
+   * secara high-level.
+   * 
+   * Misalny kita cukup tahu bagaimana Ucup Guerero makan, namun
+   * kita tidak perlu tahu seperti apa metabolisme biologis
+   * dalam tubuh Ucup Guerero yang membuat berat badannya 
+   * bertambah
+   */
+
+  /**
+   * 3. Inheritance
+   * Inheritane beberapa objek bisa memiliki 
+   * beberapa karakteristik atau perilaku yang sama
+   * 
+   * namun, bukanlah objek yang sama.
+   * 
+   * ex: Ucup Guerero memiliki sifat dan perilaku yang umum
+   * dengan manusia yang lainnya.
+   * seperti memiliki, warna, berat, tinggi, dsb
+   * 
+   * maka dari itu Ucup Guerero adalah sebagai objek turunan
+   * (subclass) mewarisi sifat dan perilaku dari 
+   * objek induknya (superclass)
+   * 
+   * Bergitu juga dengan objek Vladimir juga mewarisi sifat 
+   * dan perilaku yang sama, namun Vladimir bisa berenang
+   * kalau Ucup Guerero tidak bisa berenang
+   */
+
+  /**
+   * 4. Polymorphism
+   * dalam bahasa Yunani berarti "banyak bentuk"
+   * sederhananya objek dapat memiliki bentuk 
+   * atau implementasi yang berbeda-beda pada suatu metodh 
+   * yang sama.
+   * 
+   * Semua manusia bergerak, namun tentu gerak Ucup Guerero
+   * dan Vladimir memiliki cara gerak yang berbeda.
+   * perbedaan bentuk atau cara gerak tersebut merupakan 
+   * contoh dari Polymorphism.
+   */
+
   var ucup = Manusia('kuning langsat', 'hitam', 72.0);
   print(ucup.beratBadan);
 }
