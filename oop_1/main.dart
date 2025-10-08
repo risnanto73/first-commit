@@ -46,7 +46,7 @@ void main() {
   // var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5);
 
   // penggunaan cascade notation
-  var hewan =
+  Hewan hewan =
       Hewan('Ucup Guerero', 'Orange - White', 3.5)
         ..name = 'vladimir'
         ..color = 'red'

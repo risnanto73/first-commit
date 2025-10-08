@@ -1,6 +1,6 @@
 /**
  * Buatlah sebuah class bernama 
- * Book yang merepresentasikan buku di toko. 
+ * 'Book' yang merepresentasikan buku di toko. 
  * Setiap buku memiliki:
  * - Properties:
  * - title (String)
