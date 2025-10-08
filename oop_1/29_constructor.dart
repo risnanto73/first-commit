@@ -26,7 +26,7 @@ class Hewan {
 
   //methods
   void eat() {
-    print('$name sedang makan ayam');
+    print('$name sedang makan ayam berwarna $color');
   }
 
   void sleep() {

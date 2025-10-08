@@ -43,5 +43,11 @@ void main() {
 
   // ketika memanggil kelas dengan constructor
   // maka kita harus mengisi value dari properties
-  var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5);
+  // var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5);
+
+  // penggunaan cascade notation
+  var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5)
+  ..name = 'vladimir'
+  ..color = 'red'
+  ..eat();
 }
