@@ -1,5 +1,6 @@
-import 'animal.dart';
-import 'plants.dart';
+import '27_class_animal.dart';
+import '28_class_plants.dart';
+import '29_constructor.dart';
 
 void main() {
   var cat = Animal();
@@ -39,4 +40,6 @@ void main() {
    * => attack(), 
    * => heal()
    */
+
+  var hewan = Hewan(name, color, weight);
 }

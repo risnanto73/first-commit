@@ -1,9 +1,11 @@
 class Animal {
-  //attribute (propertis)
+  //attribute (properties)
   String name = 'Mbul';
   String colorSkin = 'Black';
   double weigth = 2;
   int age = 2;
+
+  
 
   // methods/ function/ behavior (perilaku)
   void eat() {
