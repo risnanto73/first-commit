@@ -46,8 +46,13 @@ void main() {
   // var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5);
 
   // penggunaan cascade notation
-  var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5)
-  ..name = 'vladimir'
-  ..color = 'red'
-  ..eat();
+  var hewan =
+      Hewan('Ucup Guerero', 'Orange - White', 3.5)
+        ..name = 'vladimir'
+        ..color = 'red'
+        ..eat();
+  /**
+   * titik koma (;) menandakan berakhuirnya sebuah baris kode
+   * jangan lupa titik koma (;)
+   */
 }
