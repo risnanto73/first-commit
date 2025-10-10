@@ -5,6 +5,8 @@ class Animal {
   double weigth = 2;
   int age = 2;
 
+  Animal(String s, double d, int i);
+
   
 
   // methods/ function/ behavior (perilaku)
